@@ -17,7 +17,9 @@ To run a demo.
 roslaunch sfm structure_from_motion_example.launch
 ```
 ## 🏁 To use
-
+```shell
+roslaunch sfm structure_from_motion.launch camera_topic:=/rgb_topic camera_topic:=/rgb_topic
+```
 
 ## 📊 Visualization
 Rviz can be used to view the topics 'sfm/cloud' and 'sfm/trajectory', they are 'sensor_msgs/PointCloud2' and 'nav_msgs/Path' topic types respectively.

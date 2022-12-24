@@ -20,6 +20,10 @@ roslaunch sfm structure_from_motion_example.launch
 ```shell
 roslaunch sfm structure_from_motion.launch rgb_topic:=/rgb_topic depth_topic:=/depth_topic camera_topic:=/camera_topic odom_topic:=/odom_topic
 ```
+rgb_topic(sensor_msgs/Image)
+depth_topic(sensor_msgs/Image)
+rgb_topic(sensor_msgs/CameraInfo)
+odom_topic(nav_msgs/Odometry)
 
 ## 📊 Visualization
 Rviz can be used to view the topics 'sfm/cloud' and 'sfm/trajectory', they are 'sensor_msgs/PointCloud2' and 'nav_msgs/Path' topic types respectively.

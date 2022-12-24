@@ -22,7 +22,7 @@ roslaunch sfm structure_from_motion.launch rgb_topic:=/rgb_topic depth_topic:=/d
 ```
 rgb_topic(sensor_msgs/Image)
 depth_topic(sensor_msgs/Image)
-rgb_topic(sensor_msgs/CameraInfo)
+camera_topic(sensor_msgs/CameraInfo)
 odom_topic(nav_msgs/Odometry)
 
 ## 📊 Visualization

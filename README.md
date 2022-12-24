@@ -20,7 +20,7 @@ roslaunch sfm structure_from_motion_example.launch
 ```shell
 roslaunch sfm structure_from_motion.launch rgb_topic:=/rgb_topic depth_topic:=/depth_topic camera_topic:=/camera_topic odom_topic:=/odom_topic
 ```
-Topic inputs
+###Topic inputs
 - rgb_topic(sensor_msgs/Image)
 - depth_topic(sensor_msgs/Image)
 - camera_topic(sensor_msgs/CameraInfo)

@@ -16,7 +16,7 @@ To run a demo.
 ```shell
 roslaunch sfm structure_from_motion_example.launch
 ```
-## To use
+## 🏁 To use
 
 
 ## 📊 Visualization

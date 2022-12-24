@@ -2,7 +2,7 @@
 Structure from motion for ros. Uses pcl and standard ros packages
 
 ## ⚙️ Setup
-Dependeces (ROS and PCL)
+Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)
 
 1. Clone the GitHub repository into 'catkin_ws/src'
 ```shell

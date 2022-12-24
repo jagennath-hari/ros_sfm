@@ -25,5 +25,10 @@ depth_topic(sensor_msgs/Image)
 camera_topic(sensor_msgs/CameraInfo)
 odom_topic(nav_msgs/Odometry)
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
 ## 📊 Visualization
 Rviz can be used to view the topics 'sfm/cloud' and 'sfm/trajectory', they are 'sensor_msgs/PointCloud2' and 'nav_msgs/Path' topic types respectively.

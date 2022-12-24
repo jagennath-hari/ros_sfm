@@ -18,7 +18,7 @@ roslaunch sfm structure_from_motion_example.launch
 ```
 ## 🏁 To use
 ```shell
-roslaunch sfm structure_from_motion.launch camera_topic:=/rgb_topic camera_topic:=/rgb_topic
+roslaunch sfm structure_from_motion.launch rgb_topic:=/rgb_topic depth_topic:=/depth_topic camera_topic:=/camera_topic odom_topic:=/odom_topic
 ```
 
 ## 📊 Visualization

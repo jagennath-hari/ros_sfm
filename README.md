@@ -28,6 +28,7 @@ roslaunch sfm structure_from_motion.launch rgb_topic:=/rgb_topic depth_topic:=/d
 
 ## 📊 Visualization
 Rviz can be used to view the topics 'sfm/cloud' and 'sfm/trajectory'.
+![Alt text](assets/7-scenes-7-scenes-overview.png)
 
 ### Published topics
 - sfm/cloud(sensor_msgs/PointCloud2)

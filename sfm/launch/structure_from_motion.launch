@@ -3,13 +3,10 @@
     <arg name="depth_topic" default="/zed2/zed_node/depth/depth_registered" /> 
     <arg name="camera_topic" default="/zed2/zed_node/depth/camera_info" />
     <arg name="odom_topic" default="/zed2/zed_node/odom_correct" />
-    <node pkg="rosbag" type="play" name="rosbag" clear_params="true" output="screen" args="-q $(find sfm)/bag/dataset.bag" />
     <node pkg="sfm" type="sfm" name="structure_from_motion" required="true" output="screen" clear_params="true">
       <param name="rgb_topic" type="string" value="$(arg rgb_topic)" />
       <param name="depth_topic" type="string" value="$(arg depth_topic)" />
       <param name="camera_topic" type="string" value="$(arg camera_topic)" />
       <param name="odom_topic" type="string" value="$(arg odom_topic)" />
     </node>
-    <!--Rviz-->
-  	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find sfm)/cfg/sfm.rviz" />
 </launch>

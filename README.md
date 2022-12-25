@@ -1,5 +1,5 @@
 # ros_sfm
-Structure from motion for ros. Uses pcl and standard ros packages
+Structure from motion for ros(noetic). Uses pcl and standard ros packages
 
 ## ⚙️ Setup
 Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)

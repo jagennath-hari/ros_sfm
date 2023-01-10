@@ -53,10 +53,8 @@ pcl::PointXYZ sfm::projectDepthTo3D_(const cv::Mat depthMap, float w, float h, f
         pt.y = (h - cy) * depth / fy;
         pt.z = depth;
     }
-    else
-    {
-        pt.x = pt.y = pt.z = std::numeric_limits<float>::quiet_NaN();
-    }
+    else pt.x = pt.y = pt.z = std::numeric_limits<float>::quiet_NaN();
+
     return pt;
 }
 

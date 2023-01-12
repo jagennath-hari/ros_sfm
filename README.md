@@ -1,6 +1,11 @@
 # Sturcture From Motion for Depth Cameras (ros_sfm)
 Structure from motion for ROS(noetic). Uses pcl and standard ros packages
 
+<p float="center">
+  <img src="assets/SFM.gif" width="400" height="350" />
+  <img src="assets/SFM.gif" width="400" height="350" />
+</p> 
+
 ## ⚙️ Setup
 Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)
 

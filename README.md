@@ -2,7 +2,7 @@
 Structure from motion for ROS(noetic). Uses pcl and standard ros packages
 
 <p float="center">
-  <img src="assets/SFM.gif" width="400" height="350" />
+  <img src="assets/camera_feed.gif" width="400" height="350" />
   <img src="assets/SFM.gif" width="400" height="350" />
 </p> 
 

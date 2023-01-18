@@ -1,8 +1,8 @@
 <launch>
-    <arg name="rgb_topic" default="/zed2/zed_node/rgb/image_rect_color" />
-    <arg name="depth_topic" default="/zed2/zed_node/depth/depth_registered" /> 
-    <arg name="camera_topic" default="/zed2/zed_node/depth/camera_info" />
-    <arg name="odom_topic" default="/zed2/zed_node/odom_correct" />
+    <arg name="rgb_topic" default="/rgb_topic" />
+    <arg name="depth_topic" default="/depth_topic" /> 
+    <arg name="camera_topic" default="/camera_info" />
+    <arg name="odom_topic" default="/odom_topic" />
     <node pkg="sfm" type="sfm" name="structure_from_motion" required="true" output="screen" clear_params="true">
       <param name="rgb_topic" type="string" value="$(arg rgb_topic)" />
       <param name="depth_topic" type="string" value="$(arg depth_topic)" />

@@ -1,5 +1,5 @@
 # Semantic Structure From Motion for Depth Cameras (ros_sfm)
-Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses Libtorch and OpenCV for segmentation.
+Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses Libtorch and OpenCV for semantic segmentation.
 
 <p float="center">
   <img src="assets/camera_feed.gif" width="400" height="350" />

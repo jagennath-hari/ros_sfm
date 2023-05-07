@@ -2,8 +2,8 @@
 Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses Libtorch and OpenCV for semantic segmentation.
 
 <p float="center">
-  <img src="assets/camera_feed.gif" width="400" height="350" />
-  <img src="assets/SFM.gif" width="400" height="350" />
+  <img src="assets/camera_feed1.gif" width="400" height="350" />
+  <img src="assets/point_cloud.gif" width="400" height="350" />
 </p> 
 
 ## ⚙️ Setup

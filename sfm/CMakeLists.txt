@@ -208,7 +208,6 @@ target_link_libraries(sfm ${Libraries})
 install(FILES
   bag/dataset.bag
   launch/structure_from_motion_example.launch
-  launch/structure_from_motion.launch
   launch/semantic_sfm.launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )

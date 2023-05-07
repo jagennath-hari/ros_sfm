@@ -7,7 +7,7 @@ Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses 
 </p> 
 
 ## ⚙️ Setup
-Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)
+Dependeces (ROS, PCL, pcl_conversions, pcl_msgs, Libtorch, OpenCV)
 
 ### Libtorch
 Visit [Offical Libtorch installation guide](https://github.com/pytorch/pytorch/blob/main/docs/libtorch.rst).

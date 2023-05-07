@@ -10,7 +10,7 @@ Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses 
 Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)
 
 ### Libtorch
-Visit [Offical Libtorch installation guide](https://github.com/pytorch/pytorch/blob/main/docs/libtorch.rst)
+Visit [Offical Libtorch installation guide](https://github.com/pytorch/pytorch/blob/main/docs/libtorch.rst).
 
 ### Package
 1. Clone the GitHub repository into 'catkin_ws/src'

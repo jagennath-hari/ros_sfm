@@ -1,5 +1,5 @@
 <launch>
-    <node pkg="rosbag" type="play" name="rosbag" clear_params="true" output="screen" args="-q /home/crrl/bag_files/basementOGNew.bag" />
+    <node pkg="rosbag" type="play" name="rosbag" clear_params="true" output="screen" args="-q $(find sfm)/bag/dataset.bag" />
     <node pkg="sfm" type="sfm" name="structure_from_motion" required="true" output="screen" clear_params="true">
       <param name="rgb_topic" type="string" value="/zed2/zed_node/rgb/image_rect_color" />
       <param name="depth_topic" type="string" value="/zed2/zed_node/depth/depth_registered" />

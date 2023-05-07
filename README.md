@@ -9,6 +9,9 @@ Structure From Motion for ROS(noetic). Uses pcl and standard ros packages. Uses 
 ## ⚙️ Setup
 Dependeces (ROS, PCL, pcl_conversions, pcl_msgs)
 
+### Libtorch *New*
+
+
 1. Clone the GitHub repository into 'catkin_ws/src'
 ```shell
 git clone https://github.com/jagennath-hari/ros_sfm.git
